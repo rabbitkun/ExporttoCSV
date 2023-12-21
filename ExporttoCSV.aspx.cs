@@ -1,4 +1,4 @@
-using System;
+portusing System;
 using System.IO;
 using System.Data;
 using System.Threading;
@@ -48,7 +48,7 @@ namespace ExPortGridviewToXML
             Bindgrid();
             Response.Clear();
             Response.Buffer = true;
-            Response.AddHeader("content-disposition", "attachment;filename=Vithal_Wadje.csv");
+            Response.AddHeader("content-disposition", "attachment;filename=ExportedCSV.csv");
             Response.Charset = "";
             Response.ContentType = "application/text";
             GridView1.AllowPaging = false;
